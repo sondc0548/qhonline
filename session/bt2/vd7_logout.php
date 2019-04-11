@@ -1,0 +1,7 @@
+<?php 
+	session_start();
+	session_destroy();
+	// huy cookie nê´u ko tick va`o dâ´u remmberme
+	header("location:vd5_login.php");
+	exit();
+?>
